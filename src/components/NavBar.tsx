@@ -8,7 +8,7 @@ const sections = [
   { to: "about",        label: "About" },
   { to: "classes",      label: "Classes" },
   { to: "testimonials", label: "Testimonials" },
-  { to: "contact",      label: "Contact" },
+  { to: "contact",      label: "Contact Us" },
 ];
 
 const menuVariants = {
