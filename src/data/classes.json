@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "type": "Vinyasa",
+    "title": "Morning Flow",
+    "day": "Mon",
+    "time": "7:00 AM",
+    "duration": 60,
+    "instructor": "Ava"
+  },
+  {
+    "id": 2,
+    "type": "Vinyasa",
+    "title": "Sunset Vinyasa",
+    "day": "Wed",
+    "time": "6:00 PM",
+    "duration": 60,
+    "instructor": "Liam"
+  },
+  {
+    "id": 3,
+    "type": "Hatha",
+    "title": "Hatha Basics",
+    "day": "Tue",
+    "time": "5:00 PM",
+    "duration": 75,
+    "instructor": "Noah"
+  },
+  {
+    "id": 4,
+    "type": "Yin",
+    "title": "Deep Stretch Yin",
+    "day": "Thu",
+    "time": "8:00 PM",
+    "duration": 60,
+    "instructor": "Sophia"
+  }
+]
