@@ -55,7 +55,7 @@ const classPackages = [
 const Classes: React.FC = () => {
  return (
   <section id="classes" className="pb-20 bg-beige-100">
-    <div className="container mx-auto px-4 pt-8">
+    <div className="container mx-auto px-4 pt-8">
       <h2 className="text-4xl md:text-5xl font-heading text-center text-charcoal-800 mb-12">
         Explore Our Packages
       </h2>

@@ -1,4 +1,3 @@
-// src/components/Stats.tsx
 import React, { useEffect, useRef } from "react";
 import { motion, useInView, animate } from "framer-motion";
 
