@@ -11,21 +11,21 @@ const Footer: React.FC = () => {
         {/* Social and Contact Icons with Hover Effect */}
         <div className="flex justify-center items-center gap-4 group">
           <a
-            href="tel:+1234567890"
+            href="+919899788315"
             aria-label="Call Us"
             className="rounded-full bg-beige-100 text-charcoal-800 h-10 w-10 flex items-center justify-center transition-all duration-300 group-hover:bg-gray-300 hover:!bg-accent hover:!text-beige-100"
           >
             <HiOutlinePhone className="text-xl" />
           </a>
           <a
-            href="mailto:info@yogadojo.com"
+            href="mailto:singhnishi415@gmail.com"
             aria-label="Email Us"
             className="rounded-full bg-beige-100 text-charcoal-800 h-10 w-10 flex items-center justify-center transition-all duration-300 group-hover:bg-gray-300 hover:!bg-accent hover:!text-beige-100"
           >
             <HiOutlineEnvelope className="text-xl" />
           </a>
           <a
-            href="https://wa.me/YOUR_WHATSAPP_NUMBER"
+            href="https://wa.me/7838746124"
             aria-label="Chat on WhatsApp"
             target="_blank"
             rel="noopener noreferrer"
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
           </a>
           {/* Location Icon Added Here */}
           <a
-            href="YOUR_Maps_LINK_HERE" // <-- IMPORTANT
+            href="https://maps.app.goo.gl/F1V6VhbvoPmawSDh7" // <-- IMPORTANT
             aria-label="View on Google Maps"
             target="_blank"
             rel="noopener noreferrer"
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
             <HiOutlineMapPin className="text-xl" />
           </a>
           <a
-            href="YOUR_INSTAGRAM_LINK_HERE"
+            href="https://www.instagram.com/kar_yoga_dojo?igsh=c2lzdHk5YXBkeDBy"
             aria-label="Instagram"
             target="_blank"
             rel="noopener noreferrer"
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
         {/* Contact Link */}
         <div>
           <a
-            href="mailto:info@yogadojo.com"
+            href="tel:+919899788315"
             className="uppercase tracking-widest text-sm hover:text-accent transition-colors duration-300 font-body"
           >
             Contact Us
