@@ -1,20 +1,27 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+
 // Import certification images
 import rytImg from './Assets/ryt.png';
 import rysImg from './Assets/rys.png';
 import rpysImg from './Assets/rpys.png';
 
+// Import your own studio images
+import studioImage1 from './Assets/rpys.png'; 
+import studioImage2 from './Assets/cropped-self.jpeg'; 
+import studioImage3 from './Assets/cropped-student.jpeg'; 
+import studioImage4 from './Assets/cropped-studio5.jpg'; 
+
 const About: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [currentCertIndex, setCurrentCertIndex] = useState(0);
   
-  // Array of yoga studio images
+  // Array of your yoga studio images
   const studioImages = [
-    "https://images.unsplash.com/photo-1579016749257-3f5205b5e5ae?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvenklMjB5b2dhJTIwc3R1ZGlvfGVufDB8fDB8fHww",
-    "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eW9nYSUyMHN0dWRpb3xlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHlvZ2F8ZW58MHx8MHx8fDA%3D",
-    "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8eW9nYSUyMHN0dWRpb3xlbnwwfHwwfHx8MA%3D%3D"
+    studioImage1,
+    studioImage2,
+    studioImage3,
+    studioImage4
   ];
 
   // Array of certifications with imported images

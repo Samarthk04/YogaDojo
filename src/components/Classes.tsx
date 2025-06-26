@@ -87,52 +87,56 @@ const Classes: React.FC = () => {
     </div>
 
     {/* ==================== 1-on-1 Banner (Text on Right) ==================== */}
-    <motion.div
-        className="relative mt-16 container mx-auto rounded-2xl overflow-hidden min-h-[400px] flex items-center bg-cover bg-center"
-        style={{ backgroundImage: `url(${oneOnOneBannerImg})` }}
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: true }}
-    >
-        <div className="absolute inset-0 bg-black/30"></div>
-        <div className="relative w-full md:w-1/2 p-8 md:p-12 text-white text-left"> 
-            <h3 className="font-body text-3xl md:text-4xl">1-on-1 Personal Training</h3>
-            <p className="mt-4 text-lg">
-                Get personalized attention and a customized yoga plan tailored to your specific goals and needs. Available on demand.
-            </p>
-            <a
-                href="#contact"
-                className="inline-block mt-6 px-8 py-3 bg-white text-charcoal-800 rounded-full font-semibold hover:bg-opacity-90 transition-colors"
-            >
-                Inquire Now
-            </a>
-        </div>
-    </motion.div>
+    <div className="container mx-auto px-4">
+        <motion.div
+            className="relative mt-12 rounded-2xl overflow-hidden min-h-[400px] flex items-center bg-cover bg-center"
+            style={{ backgroundImage: `url(${oneOnOneBannerImg})` }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+        >
+            <div className="absolute inset-0 bg-black/30"></div>
+            <div className="relative w-full md:w-1/2 p-8 md:p-12 text-white text-left">
+                <h3 className="font-body text-3xl md:text-4xl">1-on-1 Personal Training</h3>
+                <p className="mt-4 text-lg">
+                    Get personalized attention and a customized yoga plan tailored to your specific goals and needs. Available on demand.
+                </p>
+                <a
+                    href="#contact"
+                    className="inline-block mt-6 px-8 py-3 bg-white text-charcoal-800 rounded-full font-semibold hover:bg-opacity-90 transition-colors"
+                >
+                    Inquire Now
+                </a>
+            </div>
+        </motion.div>
+    </div>
 
     {/* ==================== Online Classes Banner (Text on Left) ==================== */}
-    <motion.div
-        className="relative mt-16 container mx-auto rounded-2xl overflow-hidden min-h-[400px] flex items-center bg-cover bg-center"
-        style={{ backgroundImage: `url(${onlineClassBannerImg})` }}
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, delay: 0.2 }}
-        viewport={{ once: true }}
-    >
-        <div className="absolute inset-0 bg-black/30"></div>
-        <div className="relative w-full md:w-1/2 p-8 md:p-12 text-white text-left">
-            <h3 className="font-body text-3xl md:text-4xl">Live Online Classes</h3>
-            <p className="mt-4 text-lg">
-                Practice from the comfort of your home with our live, interactive online sessions. Join our community from anywhere.
-            </p>
-            <a
-                href="#contact"
-                className="inline-block mt-6 px-8 py-3 bg-white text-charcoal-800 rounded-full font-semibold hover:bg-opacity-90 transition-colors"
-            >
-                Learn More
-            </a>
-        </div>
-    </motion.div>
+    <div className="container mx-auto px-4">
+        <motion.div
+            className="relative mt-12 rounded-2xl overflow-hidden min-h-[400px] flex items-center bg-cover bg-center"
+            style={{ backgroundImage: `url(${onlineClassBannerImg})` }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            viewport={{ once: true }}
+        >
+            <div className="absolute inset-0 bg-black/30"></div>
+            <div className="relative w-full md:w-1/2 p-8 md:p-12 text-white text-left">
+                <h3 className="font-body text-3xl md:text-4xl">Live Online Classes</h3>
+                <p className="mt-4 text-lg">
+                    Practice from the comfort of your home with our live, interactive online sessions. Join our community from anywhere.
+                </p>
+                <a
+                    href="#contact"
+                    className="inline-block mt-6 px-8 py-3 bg-white text-charcoal-800 rounded-full font-semibold hover:bg-opacity-90 transition-colors"
+                >
+                    Learn More
+                </a>
+            </div>
+        </motion.div>
+    </div>
   </section>
  );
 };

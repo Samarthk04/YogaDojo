@@ -9,7 +9,7 @@ const Hero: React.FC = () => (
   >
     <video
       src= { video }
-      className="absolute inset-0 w-full h-full object-cover"
+      className="absolute inset-0 w-full h-full object-cover opacity-45"
       autoPlay
       loop
       muted
@@ -22,12 +22,12 @@ const Hero: React.FC = () => (
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      <h1 className="font-heading text-beige-100 text-5xl md:text-7xl drop-shadow-lg">
+      <h1 className="font-heading text-charcoal-800 text-5xl md:text-7xl drop-shadow-lg">
         Find Your Flow at <br />
         {/* Remember to replace [Studio Name] with your actual studio name! */}
         <span className="text-accent">YogaDojo</span> 
       </h1>
-      <p className="mt-6 text-beige-100 text-lg font-body">
+      <p className="mt-6 text-charcoal-800 text-lg font-body">
         A sanctuary for mind, body & soul
       </p>
       <a

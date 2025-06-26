@@ -101,7 +101,7 @@ const BookingForm: React.FC = () => {
     };
 
     return (
-        <section id="booking" className="pt-10 pb-20 bg-beige-100">
+        <section id="booking" className="pt-5 pb-20 bg-beige-100">
             <div className="container mx-auto">
                 <div className="max-w-3xl mx-auto text-center">
                     <h2 className="font-heading text-4xl text-charcoal-800 mb-4">Book a Class</h2>
