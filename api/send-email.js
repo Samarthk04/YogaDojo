@@ -1,4 +1,3 @@
-// Example using Resend for emails. You'll need to install it: npm install resend
 import { Resend } from 'resend';
 
 // Initialize Resend with your API key
@@ -17,7 +16,7 @@ export default async (req, res) => {
     // Send the email
     const { data, error } = await resend.emails.send({
       from: 'YogaDojo Website <onboarding@resend.dev>', // This "from" address must be a verified domain in Resend
-      to: ['your-personal-email@example.com'], // IMPORTANT: Replace with the owner's actual email address
+      to: ['singhnishi415@gmail.com'], // IMPORTANT: Replace with the owner's actual email address
       subject: `New Yoga Inquiry from ${name}`,
       html: `
         <h2>New Class Inquiry Received</h2>
